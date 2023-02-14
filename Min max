@@ -1,0 +1,7 @@
+data=read.csv("diabetes.csv") View(data)
+A=c(data$Age) Mean=mean(A)
+print(Mean)
+Min=min(data$Age)
+print(Min) Maximum=max(data$Age) print(Maximum) MinMax=(A-Min)/(Maximum-Min) print(MinMax) decimalscaling=(A/100) print(decimalscaling)
+std=sd(A)
+print(std) Zscore=(A-Mean)/std print(Zscore)
