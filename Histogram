@@ -1,0 +1,22 @@
+names = c("Frank", "John", "Kesav")
+age<-c(23,21,22)
+marks<-c(88,66,79)
+
+df<-data.frame(names,age,marks)
+View(df)
+write.csv(df,"df.csv")
+
+
+data= read.csv("travel-times.csv")
+View (data)
+mean(data$MaxSpeed)
+hist(data$AvgSpeed)
+scatter.smooth(data$AvgSpeed,data$Distance)
+
+data <- read.csv("diabetes.csv")
+View (data)
+hist(data$BloodPressure)
+scatter.smooth(data$AvgSpeed,data$Distance)
+
+
+chisq.test(data)
