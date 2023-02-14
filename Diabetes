@@ -1,0 +1,6 @@
+data=read.csv("diabetes.csv")
+View(data)
+a=data.frame(data$Age)
+print(A)
+result=predict(relation,A)
+print(result)
