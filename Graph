@@ -1,0 +1,3 @@
+data=read.csv("vinu.csv")
+View(data)
+hist(data$marks) scatter.smooth(data$marks,data$age) boxplot(data$marks) barplot(data$marks)
